@@ -14,7 +14,7 @@ var workbench = require('../lib/workbench');
   switch(command) {
     case 'new': workbench.create(srcPath); break;
     case 'build': workbench.build(srcPath, destPath); break;
-    case 'watch': break;
+    case 'watch': workbench.watch(srcPath, destPath); break;
     default: break;
   }
 })();
