@@ -29,12 +29,13 @@ The default Workbench directory structure (after an initial build) is as such:
     config.json
     build
       index.html
-      style
+      styles
         style.styl
     source
       index.jade
-      layout.jade
-      style
+      layouts
+        layout.jade
+      styles
         style.styl
 
 
