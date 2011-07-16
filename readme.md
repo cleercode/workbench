@@ -6,7 +6,8 @@ Workbench is a simple tool for building static HTML/CSS/JS websites using [Jade]
 
 ## Install
 When it's ready for npm…
-    npm install -g workbench
+
+    $ npm install -g workbench
 
 ## Goals
 - Write HTML/CSS shorthand in Jade/Stylus
@@ -17,12 +18,15 @@ When it's ready for npm…
 
 ## Use
 Make a project directory
-    workbench new
+
+    $ workbench new
 
 Watch the project and compile Jade/Stylus automatically
-    workbench watch
+
+    $ workbench watch
 
 The default Workbench directory structure (after an initial build) is as such:
+
     config.json
     build
       index.html
