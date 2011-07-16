@@ -1,0 +1,12 @@
+{ "name": "workbench"
+, "description": "Build static sites using Jade and Stylus."
+, "version": "0.0.0"
+, "author": "Chris Lee <chris@chrsl.net>"
+, "repository": "git://github.com/cleercode/workbench"
+, "bin": { "workbench": "./bin/workbench" }
+, "dependencies": { "jade": "0.13.x"
+                  , "stylus": "0.13.x"
+                  , "nib": "0.0.x"
+                  }
+, "engines": { "node": "0.4.x || 0.5.x" }
+}
