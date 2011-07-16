@@ -22,6 +22,19 @@ Make a project directory
 Watch the project and compile Jade/Stylus automatically
     workbench watch
 
+The default Workbench directory structure (after an initial build) is as such:
+    config.json
+    build
+      index.html
+      style
+        style.styl
+    source
+      index.jade
+      layout.jade
+      style
+        style.styl
+
+
 ## Todo
 - Local variable passing
 - Layout support

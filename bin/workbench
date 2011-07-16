@@ -8,13 +8,14 @@ var workbench = require('../lib/workbench');
 (function command() {
   var args = process.argv.slice(2)
   , command = args[0]
-  , srcPath = args[1] ? args[1] : 'views'
-  , destPath = args[2] ? args[2] : 'build';
+  , path = args[1] ? args[1] : '.'
+  , srcPath = args[2] ? args[2] : 'source'
+  , destPath = args[3] ? args[3] : 'build'
 
   switch(command) {
-    case 'new': case 'create': workbench.create(srcPath); break;
-    case 'build': workbench.build(srcPath, destPath); break;
-    case 'watch': workbench.watch(srcPath, destPath); break;
+    case 'new': case 'create': workbench.create(path, srcPath, destPath); break;
+    case 'build': workbench.build(path); break;
+    case 'watch': workbench.watch(path); break;
     default: break;
   }
 })();
