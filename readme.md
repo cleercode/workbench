@@ -32,3 +32,4 @@ Watch the project and compile Jade/Stylus automatically
 - GitHub Pages helpers (build to root; source in directory - [script](https://gist.github.com/1062743)?)
 - Markdown filter?
 - CoffeeScript compiler?
+- Jade pretty print
