@@ -47,3 +47,4 @@ The default Workbench directory structure (after an initial build) is as such:
 - CoffeeScript compiler?
 - Jade pretty print
 - Debug print options
+- 'workbench open' to open the built index.html in browser
