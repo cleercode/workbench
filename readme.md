@@ -5,9 +5,8 @@
 Workbench is a simple tool for building static HTML/CSS/JS websites using [Jade](/visionmedia/jade) and [Stylus](/LearnBoost/stylus). It aims to be usable by all sorts of people, including non-Node-saavy designers and front-end developers. It's inspired by [Express](/visionmedia/express) and projects like [Jekyll](/mojombo/jekyll).
 
 ## Install
-When it's ready for npm…
 
-    $ npm install -g workbench
+    $ npm link workbench
 
 ## Goals
 - Write HTML/CSS shorthand in Jade/Stylus
