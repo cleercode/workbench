@@ -33,3 +33,4 @@ Watch the project and compile Jade/Stylus automatically
 - Markdown filter?
 - CoffeeScript compiler?
 - Jade pretty print
+- Debug print options
